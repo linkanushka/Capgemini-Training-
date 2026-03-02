@@ -1,0 +1,14 @@
+class Test {
+
+    public void show() {
+        System.out.println("Public method");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+
+        Test t = new Test();
+        t.show();
+    }
+}
