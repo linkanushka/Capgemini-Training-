@@ -1,0 +1,13 @@
+class Student {
+    String name;
+    int age;
+
+    Student(String n, int a) {   // constructor
+        name = n;
+        age = a;
+    }
+
+    void display() {
+        System.out.println(name + " " + age);
+    }
+}
