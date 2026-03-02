@@ -1,0 +1,25 @@
+enum Level {
+
+    LOW(1),
+    MEDIUM(2),
+    HIGH(3);
+
+    private int code;
+
+    Level(int c) {
+        code = c;
+    }
+
+    public int getCode() {
+        return code;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+
+        Level l = Level.HIGH;
+
+        System.out.println(l.getCode());
+    }
+}
