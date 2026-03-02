@@ -1,0 +1,58 @@
+public class LoopsExample {
+    public static void main(String[] args) {
+
+        // =========================
+        // FOR LOOP
+        // =========================
+        System.out.println("For Loop:");
+        for (int i = 1; i <= 5; i++) {
+            System.out.println(i);
+        }
+
+
+        // =========================
+        // WHILE LOOP
+        // =========================
+        System.out.println("\nWhile Loop:");
+        int j = 1;
+        while (j <= 5) {
+            System.out.println(j);
+            j++;
+        }
+
+
+        // =========================
+        // DO-WHILE LOOP
+        // =========================
+        System.out.println("\nDo-While Loop:");
+        int k = 1;
+        do {
+            System.out.println(k);
+            k++;
+        } while (k <= 5);
+
+
+        // =========================
+        // BREAK STATEMENT
+        // =========================
+        System.out.println("\nBreak Example:");
+        for (int x = 1; x <= 5; x++) {
+            if (x == 3) {
+                break;
+            }
+            System.out.println(x);
+        }
+
+
+        // =========================
+        // CONTINUE STATEMENT
+        // =========================
+        System.out.println("\nContinue Example:");
+        for (int y = 1; y <= 5; y++) {
+            if (y == 3) {
+                continue;
+            }
+            System.out.println(y);
+        }
+    }
+}
