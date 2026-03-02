@@ -1,0 +1,25 @@
+//aslso known as class varibale
+class Student {
+
+    String name;
+    static String college = "Galgotias University";
+
+    Student(String n) {
+        name = n;
+    }
+
+    void display() {
+        System.out.println(name + " - " + college);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+
+        Student s1 = new Student("Anushka");
+        Student s2 = new Student("Riya");
+
+        s1.display();
+        s2.display();
+    }
+}
