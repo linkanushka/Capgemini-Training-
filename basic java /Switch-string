@@ -1,0 +1,17 @@
+public class Main {
+    public static void main(String[] args) {
+
+        String day = "MONDAY";
+
+        switch(day) {
+            case "MONDAY":
+                System.out.println("Start of week");
+                break;
+            case "FRIDAY":
+                System.out.println("Weekend coming");
+                break;
+            default:
+                System.out.println("Normal day");
+        }
+    }
+}
