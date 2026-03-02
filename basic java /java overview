@@ -1,1 +1,135 @@
+// Java Overview + Basic Structure
+public class Main {
+    public static void main(String[] args) {
 
+     
+        // 1. DATA TYPES
+     
+        byte b = 10;
+        short s = 200;
+        int i = 1000;
+        long l = 100000L;
+
+        float f = 5.5f;
+        double d = 99.99;
+
+        char c = 'A';
+        boolean flag = true;
+
+        System.out.println("Data Types:");
+        System.out.println(b + " " + s + " " + i + " " + l);
+        System.out.println(f + " " + d);
+        System.out.println(c + " " + flag);
+
+
+       
+        // 2. VARIABLES & LITERALS
+      
+        int age = 20;              // integer literal
+        double price = 199.99;     // double literal
+        char grade = 'A';          // char literal
+        String name = "Anushka";   // string literal
+
+        System.out.println("\nVariables & Literals:");
+        System.out.println(age);
+        System.out.println(price);
+        System.out.println(grade);
+        System.out.println(name);
+
+
+       
+        // 3. OPERATORS
+       
+        int a = 10, b2 = 5;
+
+        System.out.println("\nArithmetic:");
+        System.out.println(a + b2);
+        System.out.println(a - b2);
+        System.out.println(a * b2);
+        System.out.println(a / b2);
+        System.out.println(a % b2);
+
+        System.out.println("\nRelational:");
+        System.out.println(a > b2);
+        System.out.println(a < b2);
+        System.out.println(a == b2);
+
+        System.out.println("\nLogical:");
+        System.out.println(a > 5 && b2 < 10);
+        System.out.println(a < 5 || b2 < 10);
+        System.out.println(!(a == b2));
+
+
+       
+        // 4. ASSIGNMENT OPERATORS
+      
+        int x = 5;
+        x += 3;
+        x -= 2;
+        x *= 4;
+        x /= 2;
+
+        System.out.println("\nAssignment Result:");
+        System.out.println(x);
+
+
+      
+        // 5. CONTROL STATEMENTS
+        
+
+        // IF-ELSE
+        int num = -5;
+
+        if (num > 0) {
+            System.out.println("Positive");
+        } else if (num < 0) {
+            System.out.println("Negative");
+        } else {
+            System.out.println("Zero");
+        }
+
+        // SWITCH
+        int day = 2;
+
+        switch (day) {
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            default:
+                System.out.println("Invalid Day");
+        }
+
+        // FOR LOOP
+        System.out.println("\nFor Loop:");
+        for (int j = 1; j <= 5; j++) {
+            System.out.println(j);
+        }
+
+        // WHILE LOOP
+        System.out.println("\nWhile Loop:");
+        int k = 1;
+        while (k <= 3) {
+            System.out.println(k);
+            k++;
+        }
+
+        // DO-WHILE LOOP
+        System.out.println("\nDo-While Loop:");
+        int m = 1;
+        do {
+            System.out.println(m);
+            m++;
+        } while (m <= 2);
+
+        // BREAK & CONTINUE
+        System.out.println("\nBreak & Continue:");
+        for (int p = 1; p <= 5; p++) {
+            if (p == 3) continue;
+            if (p == 5) break;
+            System.out.println(p);
+        }
+    }
+}
