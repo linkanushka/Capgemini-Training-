@@ -1,0 +1,22 @@
+enum Day {
+    MONDAY, TUESDAY, WEDNESDAY
+}
+
+public class Main {
+    public static void main(String[] args) {
+
+        Day d = Day.TUESDAY;
+
+        switch(d) {
+            case MONDAY:
+                System.out.println("Monday");
+                break;
+            case TUESDAY:
+                System.out.println("Tuesday");
+                break;
+            case WEDNESDAY:
+                System.out.println("Wednesday");
+                break;
+        }
+    }
+}
