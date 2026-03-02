@@ -1,4 +1,4 @@
-//aslso known as class varibale
+//also known as class varibale
 class Student {
 
     String name;
