@@ -1,0 +1,7 @@
+// 4. toLowerCase()
+public class LowerCaseExample {
+    public static void main(String[] args) {
+        String s = "JAVA";
+        System.out.println(s.toLowerCase());
+    }
+}
