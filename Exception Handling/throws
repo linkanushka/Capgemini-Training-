@@ -1,0 +1,12 @@
+import java.io.*;
+
+public class Main {
+
+    static void readFile() throws IOException {
+        FileReader file = new FileReader("test.txt");
+    }
+
+    public static void main(String[] args) throws IOException {
+        readFile();
+    }
+}
