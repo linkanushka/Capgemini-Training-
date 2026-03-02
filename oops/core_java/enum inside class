@@ -1,0 +1,13 @@
+class Test {
+
+    enum Status {
+        SUCCESS, FAILED, PENDING
+    }
+
+    public static void main(String[] args) {
+
+        Status s = Status.SUCCESS;
+
+        System.out.println(s);
+    }
+}
