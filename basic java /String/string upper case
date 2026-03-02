@@ -1,0 +1,7 @@
+// 3. toUpperCase()
+public class UpperCaseExample {
+    public static void main(String[] args) {
+        String s = "java";
+        System.out.println(s.toUpperCase());
+    }
+}
