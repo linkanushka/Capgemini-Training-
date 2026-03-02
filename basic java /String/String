@@ -1,0 +1,30 @@
+public class StringExample {
+    public static void main(String[] args) {
+
+        String s1 = "Anushka";
+        String s2 = new String("Singh");
+
+        System.out.println(s1);
+        System.out.println(s2);
+
+        System.out.println("Length: " + s1.length());
+        System.out.println("Char at 2: " + s1.charAt(2));
+        System.out.println("Uppercase: " + s1.toUpperCase());
+        System.out.println("Lowercase: " + s1.toLowerCase());
+
+        String s3 = s1 + " " + s2;
+        System.out.println("Concatenation: " + s3);
+
+        System.out.println("Equals: " + s1.equals(s2));
+        System.out.println("Contains 'shu': " + s1.contains("shu"));
+
+        String str = "  Hello Java  ";
+        System.out.println("Trim: " + str.trim());
+
+        String sub = s1.substring(0, 4);
+        System.out.println("Substring: " + sub);
+
+        String replace = s1.replace("a", "x");
+        System.out.println("Replace: " + replace);
+    }
+}
