@@ -1,0 +1,20 @@
+class InvalidAmountException extends Exception {
+    public InvalidAmountException(String message) {
+        super(message);
+    }
+}
+
+class ExceedsLimitException extends Exception {
+    public ExceedsLimitException(String message) {
+        super(message);
+    }
+}
+
+class AccountInactiveException extends Exception {
+    public AccountInactiveException(String message) {
+        super(message);
+    }
+}
+
+class InsufficientBalanceException extends Exception {
+    public InsufficientBalanceException(String message) {
