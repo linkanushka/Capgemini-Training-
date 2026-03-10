@@ -1,0 +1,16 @@
+package com.example.employee.main;
+
+import com.example.employee.service.*;
+
+public class EmployeeApp {
+
+    public static void main(String[] args){
+
+        EmployeeService service = new EmployeeServiceImpl();
+
+        service.addEmployee();
+        service.displayEmployees();
+
+    }
+
+}
