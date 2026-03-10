@@ -1,0 +1,19 @@
+package com.example.player.service;
+
+import java.util.*;
+
+public class PlayerServiceImpl implements PlayerService {
+
+    List<String> players = new ArrayList<>();
+
+    public void addPlayer(String name) {
+        players.add(name);
+    }
+
+    public void displayPlayers() {
+
+        for(String p : players)
+            System.out.println(p);
+
+    }
+}
