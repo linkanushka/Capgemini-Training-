@@ -1,0 +1,9 @@
+package com.example.player.service;
+
+public interface PlayerService {
+
+    void addPlayer(String name);
+
+    void displayPlayers();
+
+}
