@@ -1,0 +1,25 @@
+package com.example.employee.service;
+
+import java.util.*;
+
+import com.example.employee.model.Employee;
+
+public class EmployeeServiceImpl implements EmployeeService{
+
+    List<Employee> employees = new ArrayList<>();
+
+    public void addEmployee(){
+
+        employees.add(new Employee(1,"Anushka",50000));
+        employees.add(new Employee(2,"Riya",60000));
+
+    }
+
+    public void displayEmployees(){
+
+        for(Employee e:employees)
+            System.out.println(e);
+
+    }
+
+}
