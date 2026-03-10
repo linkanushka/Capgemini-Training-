@@ -1,0 +1,17 @@
+package com.example.player.main;
+
+import com.example.player.service.*;
+
+public class MainApp {
+
+    public static void main(String[] args) {
+
+        PlayerService service = new PlayerServiceImpl();
+
+        service.addPlayer("Virat");
+        service.addPlayer("Rohit");
+
+        service.displayPlayers();
+
+    }
+}
