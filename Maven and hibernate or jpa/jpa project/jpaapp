@@ -1,0 +1,28 @@
+package com.example.jpa.main;
+
+import jakarta.persistence.*;
+
+import com.example.jpa.entity.Player;
+
+public class JpaApp {
+
+public static void main(String[] args){
+
+EntityManagerFactory emf =
+Persistence.createEntityManagerFactory("playerPU");
+
+EntityManager em = emf.createEntityManager();
+
+em.getTransaction().begin();
+
+Player p = new Player(1,"Virat");
+
+em.persist(p);
+
+em.getTransaction().commit();
+
+em.close();
+
+}
+
+}
