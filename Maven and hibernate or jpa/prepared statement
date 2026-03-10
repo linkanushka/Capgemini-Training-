@@ -1,0 +1,21 @@
+public void addStudent(int id, String name) {
+
+    try {
+
+        Connection con = DBConnection.getConnection();
+
+        String query = "INSERT INTO student VALUES (?, ?)";
+
+        PreparedStatement ps = con.prepareStatement(query);
+
+        ps.setInt(1, id);
+        ps.setString(2, name);
+
+        ps.executeUpdate();
+
+    }
+    catch(Exception e) {
+        System.out.println(e);
+    }
+
+}
