@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+
+       xsi:schemaLocation="
+http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--   <bean id="bean_id" class="IOC_with_XML.Myfavclass"/>-->
+   <bean id="bean_id" class="IOC_with_XML.Myfavclass">
+      <property name="name" value="evildeadrise"/>
+      <property name="id" value="1225"/>
+   </bean>
+
+   <bean id="bean_id3" class="IOC_with_XML.Myfavclass">
+      <property name="name" value="conjuring"/>
+      <property name="id" value="777"/>
+   </bean>
+
+
+</beans>
